@@ -1,0 +1,52 @@
+{
+  "name": "simonankele/pipeline-query-collection",
+  "description": "A query database collection for use with Laravel Pipeline",
+  "keywords": [
+    "laravel",
+    "pipeline-query-collection"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Simon Ankele",
+      "email": "github@simonankele.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SimonAnkele\\PipelineQueryCollection\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SimonAnkele\\PipelineQueryCollection\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.3",
+    "illuminate/support": "^11.34"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "dont-discover": []
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "require-dev": {
+    "laravel/pint": "^1.18",
+    "orchestra/testbench": "^9.6",
+    "pestphp/pest": "^3.5",
+    "phpstan/phpstan": "^2.0"
+  }
+}

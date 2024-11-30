@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace SimonAnkele\PipelineQueryCollection\Filters;
 
-use Baro\PipelineQueryCollection\BasePipe;
+use SimonAnkele\PipelineQueryCollection\BasePipe;
 
 abstract class BaseFilter extends BasePipe
 {

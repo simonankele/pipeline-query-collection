@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Baro\PipelineQueryCollection\Enums\WildcardPositionEnum;
+use SimonAnkele\PipelineQueryCollection\Enums\WildcardPositionEnum;
 
 // config for Baro/PipelineQueryCollection
 return [

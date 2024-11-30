@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Baro\PipelineQueryCollection\Database\Factories;
+namespace SimonAnkele\PipelineQueryCollection\Database\Factories;
 
-use Baro\PipelineQueryCollection\Tests\TestClasses\Models\RelatedModel;
+use SimonAnkele\PipelineQueryCollection\Tests\Classes\Models\RelatedModel;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class RelatedModelFactory extends Factory

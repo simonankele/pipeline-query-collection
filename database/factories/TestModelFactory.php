@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Baro\PipelineQueryCollection\Database\Factories;
 
-use Baro\PipelineQueryCollection\Tests\TestClasses\Models\TestModel;
+use SimonAnkele\PipelineQueryCollection\Tests\Classes\Models\TestModel;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class TestModelFactory extends Factory
